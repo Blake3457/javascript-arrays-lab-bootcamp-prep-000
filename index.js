@@ -27,3 +27,15 @@ function prependKitten(name) {
   newArray.unshift("Arnold")
   return newArray
 }
+
+function removeLastKitten() {
+  var newArray = kittens.slice();
+  newArray.pop()
+  return newArray
+}
+
+function removeFirstKitten() {
+  var newArray = kittens.slice();
+  newArray.shift()
+  return newArray
+}
